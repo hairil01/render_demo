@@ -20,6 +20,7 @@ external_stylesheets = [
 
 
 app = JupyterDash(__name__, external_stylesheets=external_stylesheets)
+server = app.server
 
 
 # Group the data by Publisher(s) and sum the Sales for each Developer(s)
